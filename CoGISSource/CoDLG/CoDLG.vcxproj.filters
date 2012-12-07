@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="CoDLG.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\CoDLG.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\CoGIS\CoGIS\res\background.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\background.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_CoDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoInputLineDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoInputPntDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoInputTagDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoInPutTagStrDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoInPutPolyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoLineProDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoAlterTagPro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoAlterTagStr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoNewTagDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoNewLineDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoNewPntDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoNewPolyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoPntPorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoPolyProDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_CoDLG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoInputLineDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoInputPntDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoInputTagDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoInPutTagStrDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoInPutPolyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoLineProDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoAlterTagPro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoAlterTagStr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoNewTagDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoNewLineDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoNewPntDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoNewPolyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoPntPorDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoPolyProDLG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CoDLG.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
